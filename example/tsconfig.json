@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-microphone-fft": ["../src/index"],
+      "expo-microphone-fft/*": ["../src/*"]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpoMicrophoneFftModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.microphonefft.ExpoMicrophoneFftModule"]
+  }
+}
